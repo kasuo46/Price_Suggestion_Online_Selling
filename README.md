@@ -1,5 +1,5 @@
 # Price Suggestion Online Selling
-This project is to build a regression model to predict the sale price of a listing based on information a user provides for this listing. There are both categorical (brand, category of the item, free shipping or not) and textual data (title, item description), therefore natrual language processing techniques should be used. By using the extracted features, a regression model containing embedding and GRU layers is built via Keras and it achieved a rmsle score of 0.52.
+This project is to build a regression model to predict the sale price of a listing based on information a user provides for this listing. There are both categorical (brand, category of the item, free shipping or not) and textual data (title, item description), therefore natural language processing techniques should be used. By using the extracted features, a regression model containing embedding and GRU layers is built via Keras and it achieved a rmsle score of 0.52.
 
 ## Introduction to the Dataset
 The data is available here https://www.kaggle.com/c/mercari-price-suggestion-challenge/data. The files consist of a list of product listings. These files are tab-delimited.
